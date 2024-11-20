@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">
+                        Hannah
+                        <span>
+                            Zimmermann
+                        </span>
+                    </h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">Heim</a></li>
+                        <li><a href="about.html">über uns</a></li>
+                        <li><a href="services.html" style="color: #336DD5; font-weight: 500;">Dienstleistungen</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <section class="contenedor__sectionservicesbanner">
+
+        <div class="banner">
+            <div class="contenedor">
+
+                <h2>
+                    Heim ><span> Dienstleistungen</span>
+                </h2>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="contenedor__sectionservices1">
+        <div class="contenedor">
+
+            <div class="sectionservices1__lado1">
+                <h4>Was wir tun</h4>
+                <h3>Entdecken Sie unsere wichtigsten Geschäftsziele</h3>
+            </div>
+
+
+            <div class="sectionservices1__lado2">
+                <p>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper
+                    at
+                    tempufddfel. Learn more about our work! Lorem ipsum viverra feugiat.consectetur
+                    adipisicing dolor et
+                    amet.
+                </p>
+
+                <p>
+                    Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper
+                    at
+                    tempufddfel. Learn more about our work! Lorem ipsum viverra feugiat.consectetur
+                    adipisicing dolor et
+                    amet.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contenedor__sectionservices2">
+        <div class="contenedor">
+
+            <h4>Dienstleistungen</h4>
+            <h3>Bieten Sie mit unseren Tools fantastische Dienste an</h3>
+
+
+            <div class="sectionservices__detallesfila">
+                <div class="detalle__lado1">
+                    <img src="./imagenes/idea.svg" alt="idea" title="idea">
+                    <h5>Vestibulum in malesuada</h5>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+
+                <div class="detalle__lado2 detalleblack">
+                    <img src="./imagenes/piggy.svg" alt="piggy" title="piggy">
+                    <h5 class="white">Vestibulum in malesuada</h5>
+                    <p class="white">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+
+            </div>
+
+
+            <div class="sectionservices__detallesfila">
+                <div class="detalle__lado1">
+                    <img src="./imagenes/network.svg" alt="network" title="network">
+                    <h5>Vestibulum in malesuada</h5>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+
+                <div class="detalle__lado2">
+                    <img src="./imagenes/chart-pie.svg" alt="chart-pie" title="chart-pie">
+                    <h5>Vestibulum in malesuada</h5>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="sectionservices__detallesfila">
+                <div class="detalle__lado1 detalleblack">
+                    <img src="./imagenes/business.svg" alt="business" title="business">
+                    <h5>Vestibulum in malesuada</h5>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+
+                <div class="detalle__lado2 ">
+                    <img src="./imagenes/chart.svg" alt="chart" title="chart">
+                    <h5 class="white">Vestibulum in malesuada</h5>
+                    <p class="white">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt
+                        mollit.
+                    </p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="contenedor__sectionservices3">
+        <div class="contenedor">
+
+            <div class="sectionservices3__lado1">
+                <h4>Frische Ideen für Ihr Business</h4>
+                <h3>Steigern Sie Ihren Erfolg</h3>
+            </div>
+
+            <div class="sectionservices3__lado2">
+                <ul>
+                    <li><a href="#">+51 000 000 000</a></li>
+                </ul>
+
+
+                <div class="fila__botones">
+                    <a href="contact.html" class="btn btn__btn--light">Kontaktieren Sie uns</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Rechte Vorbehalten, Entworfen von
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder noch so kleine Beitrag kann das Leben eines Menschen verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
